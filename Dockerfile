@@ -10,5 +10,5 @@ RUN mkdir -p /tmp/tce/optional \
     && mkdir /home/tc \
     && chown tc:staff /home/tc
 
-USER tc
+USER root
 CMD ["/bin/sh"]
